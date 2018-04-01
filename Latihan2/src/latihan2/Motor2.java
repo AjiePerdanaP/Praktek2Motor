@@ -15,4 +15,7 @@ public class Motor2 {
             total = harga*jumlah_pesan;
             return total;
     }
+        void hargatotal(){
+            System.out.println("totalnya adalah="+hargaakhir());
+        }
 }
