@@ -10,6 +10,13 @@ public class Motor2 {
         harga=3.0000;
         jumlah_pesan=5.0;
     }
+
+    public Motor2(String merk, Double harga, Double jumlah_pesan) {
+        this.merk = merk;
+        this.harga = harga;
+        this.jumlah_pesan = jumlah_pesan;
+    }
+    
     
     
     void mengisi_bensin(){

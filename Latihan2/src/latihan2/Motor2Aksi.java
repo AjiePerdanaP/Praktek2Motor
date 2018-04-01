@@ -14,5 +14,8 @@ public class Motor2Aksi {
         
         Motor2 m2 = new Motor2();
         m2.mengisi_bensin();
+    
+        Motor2 m3 = new Motor2("ninja",5.0000,2.0);
+        m3.mengisi_bensin();
     }
 }
