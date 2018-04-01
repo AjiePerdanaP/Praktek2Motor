@@ -7,5 +7,7 @@ public class Motor2Aksi {
         m1.merk="revo";
         m1.harga=1.5000;
         m1.jumlah_pesan= 4.0;
+        
+        m1.mengisi_bensin();
     }
 }
