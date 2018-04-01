@@ -4,6 +4,13 @@ public class Motor2 {
     String merk;
     Double harga;
     Double jumlah_pesan;
+
+    public Motor2() {
+        merk="klx";
+        harga=3.0000;
+        jumlah=5;
+    }
+    
     
     void mengisi_bensin(){
         System.out.println("merk :"+merk);
