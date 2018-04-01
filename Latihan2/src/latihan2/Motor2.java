@@ -10,4 +10,9 @@ public class Motor2 {
         System.out.println("harga :"+harga);
         System.out.println("jumlah pesan :"+jumlah_pesan);
     }
+        Double hargaakhir(){
+            Double total;
+            total = harga*jumlah_pesan;
+            return total;
+    }
 }

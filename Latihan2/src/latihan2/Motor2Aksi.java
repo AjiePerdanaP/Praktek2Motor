@@ -9,5 +9,6 @@ public class Motor2Aksi {
         m1.jumlah_pesan= 4.0;
         
         m1.mengisi_bensin();
+        System.out.println("total = "+m1.hargaakhir());
     }
 }
