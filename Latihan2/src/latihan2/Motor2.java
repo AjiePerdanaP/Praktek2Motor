@@ -8,7 +8,7 @@ public class Motor2 {
     public Motor2() {
         merk="klx";
         harga=3.0000;
-        jumlah=5;
+        jumlah_pesan=5.0;
     }
     
     

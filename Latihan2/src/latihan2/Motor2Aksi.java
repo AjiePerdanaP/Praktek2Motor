@@ -11,5 +11,8 @@ public class Motor2Aksi {
         m1.mengisi_bensin();
         System.out.println("total = "+m1.hargaakhir());
         m1.hargatotal();
+        
+        Motor2 m2 = new Motor2();
+        m2.mengisi_bensin();
     }
 }
